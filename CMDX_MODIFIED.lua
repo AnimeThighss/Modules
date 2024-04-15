@@ -349,8 +349,10 @@ mt.__namecall = newcclosure(function(self, ...)
 	return namecall(self, ...)
 end)
 setreadonly(mt, true)--]]
-
+Stand("CMD-X V2 is NOT in development.", "Please do not join the discord for development updates.", "You can't get the discord invite", "", "", "Continue", true)
 while not RunDude do wait() end
+
+wait(.5)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Version.lua",true))()
 if Current and Current.Version ~= ver then
